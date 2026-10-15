@@ -1,0 +1,22 @@
+id = "question44/spotify-media-niri"
+name = "Spotify Media for Niri"
+version = "0.2.0"
+plugin_api = 24
+author = "question44"
+license = "MIT"
+
+dependencies = [
+  "playerctl",
+  "niri",
+  "spotify-launcher",
+]
+
+icon = "brand-spotify"
+
+description = "Compact Spotify now-playing widget with playback controls."
+
+tags = ["bar", "media", "music", "niri"]
+
+[[widget]]
+id = "bar"
+entry = "bar.luau"
